@@ -33,6 +33,18 @@ const Body = ({ incrementScore }) => {
 
   return (
     <div className="body-content">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "content",
+          alignItems: "center",
+          marginLeft: " 20px",
+          color: "blue",
+        }}
+      >
+        Get points by clicking on an image but don't click on the same image
+        more than once
+      </div>
       <div className="body-container">
         {jsonData.data.length === 0 ? (
           <div
