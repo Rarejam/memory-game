@@ -1,1 +1,3 @@
 This is a memory game that utilizes brain logic and remembrance....
+to deploy a react vite app on vercel
+first run npm run build then it wil great a dist folder after whcih you ill choose it ad your direct when deploying
